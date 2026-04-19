@@ -253,6 +253,9 @@ public class UltimateSpecsVehicleScraperService {
                                 downloadModelImage(imageUrl, brandUrl, modelName);
                         }
                         modelsData.add(modelData);
+
+                        // Debug mode: only first model
+                        break;
                 }
 
                 System.out.println("SCRAPED MODELS FOR BRAND EXECUTION FINISHED");
